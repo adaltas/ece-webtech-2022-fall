@@ -33,30 +33,10 @@ Navigate inside the [`./courses/webtech/modules`](courses/webtech/modules) folde
 - `lab` folder - assets provided for the labs
 - `image` folder - images used in the `.md` files
 
-### Accessing online slides
-
-The slides are available on Netlify as a static website - [ece-webtech-2022-fall.netlify.app](https://ece-webtech-2022-fall.netlify.app/).
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/a0de952e-7ca4-48cf-82c0-95d770df3e4c/deploy-status)](https://app.netlify.com/sites/ece-webtech-2022-fall/deploys)
-
-### Build slides locally as a static website
-
-Run the following commands to get the site up and running.
-
-```
-# Clone the repository
-git clone https://github.com/adaltas/ece-webtech-2022-fall.git webtech
-cd webtech/gatsby
-# Download the dependencies
-npm install
-# Start the development server
-npm run develop
-# If you have problem, try
-npm run clean && npm run develop
-```
-
 ## Teachers
 
-Sergei Kudinov
+Sergei Kudinov   
+at Adaltas
 
-Paul Farault
+Paul Farault   
+at Adaltas
