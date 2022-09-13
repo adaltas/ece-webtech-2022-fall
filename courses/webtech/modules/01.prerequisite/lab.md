@@ -25,11 +25,7 @@ Create a private Git repository on GitHub for your group. Name it `ece-webapp-{a
 
 Navigate to this course repository and subscribe to it by selection `Watch > All Activity`.
 
-## 3. Password manager (easy level)
-
-Choose the password manager of your liking.
-
-## 4. Work environment (medium level)
+## 3. Work environment (medium level)
 
 When running Windows, download a Linux VM. MacOS users don't need a virtual machine.
 
@@ -41,7 +37,7 @@ Windows user with not enough RAM (8GB of RAM or less) can choose to set up their
 
 Set up the Linux machine including an IDE, Linux tools, ... Don't install your IDE on your Windows host machine.
 
-## 5. Node.js installation (medium level)
+## 4. Node.js installation (medium level)
 
 Install Node.js with n-install
 ```
@@ -54,7 +50,7 @@ curl -L https://git.io/n-install | bash
 
 For those choosing the Windows path, you can stick with the official installer.
 
-## 6. Feed yourself (medium level)
+## 5. Feed yourself (medium level)
 
 Here are the tutorials and resources to study:
 
