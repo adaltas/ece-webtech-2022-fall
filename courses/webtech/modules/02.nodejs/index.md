@@ -1,5 +1,5 @@
 
-# Prerequisites and introduction to Web Technologies
+# Getting started with Node.js
 
 The course starts with a brief overview of Node.JS, its usage, strengths, and ecosystem with NPM and YARN. It continues with a quick getting started to get a script up and running introducing the concepts of modules and packages.
 
