@@ -36,7 +36,5 @@ Navigate inside the [`./courses/webtech/modules`](courses/webtech/modules) folde
 ## Teachers
 
 Sergei Kudinov   
-at Adaltas
 
-Paul Farault   
-at Adaltas
+Paul Farault
