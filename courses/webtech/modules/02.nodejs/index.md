@@ -238,7 +238,7 @@ login(username, password)
 })
 ```
 
-Async syntax
+Async syntax:
 
 ```js
 function async login (username, password) {
@@ -278,7 +278,7 @@ try{
 
 ## Nodemon
 
-* A simple utility
+* [Nodemon](https://www.npmjs.com/package/nodemon) - is a simple utility
 * Watches your development files
 * Restarts the server on saving
 * No need to restart the server manually
