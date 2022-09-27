@@ -8,7 +8,8 @@
 3. Create a simple HTTP server
 4. Integrate Nodemon
 5. Create a basic application with multiple routes
-6. Publish your project to GitHub / GitLab
+6. Reading from a JSON file
+7. Publish your project to GitHub / GitLab
 
 ## Notes
 
@@ -359,7 +360,29 @@ Create an application with 3 routes:
   - your own name replies with a short intro of yourself
 3. Any other path replies a 404 code with a not found message
 
-## Part 6. Publish your project to GitHub / GitLab
+## Part 6. Reading from a JSON file
+
+1. Create a subfolder with the name `content` and create a JSON file `about.json` inside it with the example content like this:
+
+```json
+{
+  "title": "About",
+  "content": "Example content here.",
+  "author": "Your Name",
+  "date": "27/09/2022"
+}
+```
+
+2. Create the route `/about` displaying the content of this JSON file:
+
+- use `require()` method to access to a file
+- chose a proper `Content-Type` for displaying JSON
+
+3. Create dynamic routing.
+
+Parse the path and verify if the file exists in the `content` folder. If yes, print its content. If no, redirect to 404 error page.
+
+## Part 7. Publish your project to GitHub / GitLab
 
 ### 1. Document your project (medium level)
 
