@@ -95,29 +95,106 @@ app.get(
 )
 ```
 
-## Postman
+[Read more](https://expressjs.com/en/guide/routing.html)
 
-* Dashboard to test your API
-* Simulate HTTP request
-* Specify custom body & headers
-* [getpostman.com](http://getpostman.com)
+## Testing web API
 
-## Other tools for testing API
+1. [Postman](https://www.postman.com/)
 
-* [Swagger Inspector](https://inspector.swagger.io)
-* `curl` Bash command
+  * Dashboard to test your API
+  * Simulate HTTP request
+  * Specify custom body & headers
 
+2. [Swagger Inspector](https://inspector.swagger.io)
 
-## Unit tests
+3. `curl` Bash command. Examples:   
+  ```bash
+  # Sending GET request
+  curl -X GET http://localhost:3000/user
+ 
+  # Sending POST request
+  curl -X POST http://localhost:3000/user \
+   -H 'Content-Type: application/json' \
+   -d '{"username":"myuser","email":"myuser@example.com"}'
+  ```
+
+## Unit testing
 
 * Test a piece of code that can be logically isolated in a system
 * At its core, it is just a function that is scheduled by the testing library
 * Functions can be grouped together, filtered, and skipped
+* [Mocha](https://mochajs.org/) - is a JavaScript test framework 
 
 ## Assertion in unit tests
 
 * Function must succeed to pass or throw an error to fail
 * An assertion library is handy to check valid information
+* [Supertest](https://www.npmjs.com/package/supertest) - HTTP assertions for JavaScript
+* [Chai](https://www.chaijs.com/) - assertion library for JavaScript
+
+## Supertest example
+
+```js
+const app = require('./app')
+const request = require('supertest');
+const assert = require('assert');
+
+describe('User', function () {
+
+  it('list user', async function () {
+    // Create a user
+    await request(app)
+    .post('/user')
+    .send({username: 'user_1'})
+    // Test
+    const {body: users} = await request(app)
+      .get('/user')
+      .expect('Content-Type', /json/)
+      .expect(200)
+    assert(users[0].username, 'user_1')
+  });
+
+});
+```
+
+## Assertion styles
+
+
+`assert`:
+
+```js
+var assert = chai.assert;
+
+assert.typeOf(foo, 'string');
+assert.equal(foo, 'bar');
+assert.lengthOf(foo, 3)
+assert.property(tea, 'flavors');
+assert.lengthOf(tea.flavors, 3);
+```
+
+`should`:
+
+```js
+chai.should();
+
+foo.should.be.a('string');
+foo.should.equal('bar');
+foo.should.have.lengthOf(3);
+tea.should.have.property('flavors')
+  .with.lengthOf(3);
+```
+
+`expect`:
+
+```js
+var expect = chai.expect;
+
+expect(foo).to.be.a('string');
+expect(foo).to.equal('bar');
+expect(foo).to.have.lengthOf(3);
+expect(tea).to.have.property('flavors')
+  .with.lengthOf(3);
+```              
 
 ## Test writing best practices
 
