@@ -22,16 +22,29 @@ This repository contains supporting materials and labs for the Web Technologies 
 2. Project
 3. MCQ exam (multiple choice questions)
 
-## Usage
+## Correction repositories and supporting source code
 
-### Reading slides' content
+Each student group is associated (access is individually granted to [all students](https://github.com/adaltas/ece-webtech-2022-fall/discussions/1)) with a repository containing supporting source code for each lab work and its corrections:
+
+- [Ing4 SI 01](https://github.com/adaltas/ece-webtech-2022-fall-gr01/)
+- [Ing4 SI 02](https://github.com/adaltas/ece-webtech-2022-fall-gr02/)
+- [Ing4 SI 03](https://github.com/adaltas/ece-webtech-2022-fall-gr03/)
+- [Ing4 SI 04](https://github.com/adaltas/ece-webtech-2022-fall-gr04/)
+- [Ing4 SI 05](https://github.com/adaltas/ece-webtech-2022-fall-gr05/)
+- [Ing4 SI 06](https://github.com/adaltas/ece-webtech-2022-fall-gr06/)
+
+The repositories use Git tags to make it easy to navigate:
+- `labX` - contains prerequisites for the lab X.
+- `labX-corrections` - contains corrections for the lab X.
+
+They use the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification with clean separation of code changes. Students are encouraged to carefully read and understand all commits.
+
+## Using course materials
 
 Navigate inside the [`./courses/webtech/modules`](courses/webtech/modules) folder to read the raw material and access the labs. The module's folders contain following files:
 
 - `index.md` - materials for the module
 - `lab.md` - labs description
-- `lab` folder - assets provided for the labs
-- `image` folder - images used in the `.md` files
 
 ## Teachers
 
