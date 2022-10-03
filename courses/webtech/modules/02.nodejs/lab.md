@@ -380,7 +380,7 @@ Create an application with 3 routes:
 
 3. Create dynamic routing.
 
-Parse the path and verify if the file exists in the `content` folder. If yes, print its content. If no, redirect to 404 error page.
+Parse the path and verify if a JSON file exists in the `content` folder. If yes, print its content. If no, redirect to 404 error page.
 
 ## Part 7. Publish your project to GitHub / GitLab
 
