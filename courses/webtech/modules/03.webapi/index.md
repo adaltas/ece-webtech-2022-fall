@@ -1,3 +1,6 @@
+---
+duration: 1h
+---
 
 # Web API with Node.js
 

@@ -1,3 +1,6 @@
+---
+duration: 2h
+---
 
 # Lab: Web API with Node.js
 

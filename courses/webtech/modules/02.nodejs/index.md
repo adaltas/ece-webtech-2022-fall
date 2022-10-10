@@ -1,3 +1,6 @@
+---
+duration: 1h
+---
 
 # Getting started with Node.js
 

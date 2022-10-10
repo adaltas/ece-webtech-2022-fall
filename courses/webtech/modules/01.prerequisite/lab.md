@@ -1,3 +1,6 @@
+---
+duration: 2h
+---
 
 # Lab: get basic skills
 

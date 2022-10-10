@@ -1,3 +1,6 @@
+---
+duration: 2h
+---
 
 # Lab: First Node.js & Git project
 

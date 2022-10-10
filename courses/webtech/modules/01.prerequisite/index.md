@@ -1,5 +1,5 @@
 ---
-duration: 1h to 3h
+duration: 1h
 ---
 
 # Prerequisites and introduction to Web Technologies

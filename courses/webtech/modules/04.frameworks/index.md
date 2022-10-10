@@ -1,3 +1,6 @@
+---
+duration: 1h
+---
 
 # Libraries and frameworks for the web
 
