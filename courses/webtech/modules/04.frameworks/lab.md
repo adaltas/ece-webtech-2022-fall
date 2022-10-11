@@ -18,6 +18,8 @@ Backup the previous labs in your repository under the `labs` folder.
 
 ## Part 1. Initialize Next.js application (eazy level)
 
+> Install [`npx`](https://www.npmjs.com/package/npx) if it is not yet installed.
+
 Initialize a Next.js application by following [this guide](https://nextjs.org/docs/getting-started) to start. Under your repository root, run the `npx create-next-app@latest` and name your application as `app`. It must create the `app` folder.
 
 ## Part 2. Build a website skeleton for blogging (medium level)
