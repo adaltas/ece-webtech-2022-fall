@@ -30,20 +30,22 @@ duration: 1h
 Example with [Emotion](https://www.npmjs.com/package/@emotion/react):
 
 ```jsx
-export default () => (
-  <button
-    css={{
-      backgroundColor: 'red',
-      color: 'white',
-      padding: '.2rem',
-      '&:hover span': {
-        backgroundColor: 'crimson',
-      }
-    }}
-  >
-    <span>Don't hit me!</span>
-  </button>
-)
+export default function MyButton(){
+  return (
+    <button
+      css={{
+        backgroundColor: 'red',
+        color: 'white',
+        padding: '.2rem',
+        '&:hover span': {
+          backgroundColor: 'crimson',
+        }
+      }}
+    >
+      <span>Don't hit me!</span>
+    </button>
+  )
+}
 ```
 
 Generates:
@@ -62,16 +64,18 @@ Generates:
 Use the `style` attribute with "camelCased" property names:
 
 ```jsx
-export default () => (
-  <button
-    style={{
-      backgroundColor: 'red',
-      color: 'white'
-    }}
-  >
-    Don't hit me!
-  </button>
-)
+export default function MyButton(){
+  return (
+    <button
+      style={{
+        backgroundColor: 'red',
+        color: 'white'
+      }}
+    >
+      Don't hit me!
+    </button>
+  )
+}
 ```
 
 ## Using an object
@@ -79,7 +83,7 @@ export default () => (
 Use the `style` attribute to pass an object:
 
 ```jsx
-export default () => {
+export default function MyButton(){
   const styles = {
     backgroundColor: 'red',
     color: 'white'
@@ -108,13 +112,15 @@ Use the `className` attribute to apply classes.
 ```jsx
 import styles from './Button.module.css'
 
-export default () => (
-  <button
-    className={styles.button}
-  >
-    Don't hit me!
-  </button>
-)
+export default function MyButton(){
+  return (
+    <button
+      className={styles.button}
+    >
+      Don't hit me!
+    </button>
+  )
+}
 ```
 
 The "./Button.module.css" file:
@@ -133,7 +139,7 @@ Complex usages of styles quickly become hard to maintain:
 ```jsx
 import styles from './Button.module.css'
 
-export default ({userStyles, important}) => {
+export default function MyButton({userStyles, important}){
   return (
     <button
       className={[
@@ -168,7 +174,7 @@ With clsx:
 import clsx from 'clsx'
 import styles from './Button.module.css'
 
-export default ({userStyles, important}) => {
+export default function MyButton({userStyles, important}){
   return (
     <button
       className={clsx(
@@ -186,19 +192,29 @@ export default ({userStyles, important}) => {
 With Emotion, the `ClassNames` is a little more complex:
 
 ```jsx
+import clsx from 'clsx'
 import { ClassNames } from '@emotion/react'
-import styles from './Button.module.css'
 
-export default ({userStyles, important}) => {
+const styles = {
+  button: {
+    backgroundColor: 'blue',
+    color: 'white'
+  },
+  buttonImportant: {
+    backgroundColor: 'red',
+  }
+}
+
+export default function MyButton({userStyles, important}){
   return (
     <ClassNames>
     {({ css, cx }) => (
       <button
-        className={cx(
+        css={
           styles.button,
           userStyles, {
-            [styles.buttonImportant]: important
-          })}
+          [styles.buttonImportant]: important
+        }}
       >
         This start to be more readable
       </button>
