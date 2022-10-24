@@ -8,16 +8,18 @@ Tailwind CSS is a utility-first CSS framework designed to enable users to create
 
 ## Objectives
 
-1. Initialize Tailwind inside Next.js
-2. Style your blog
-3. Make it responsive
-4. Support dark mode
+1. Initialize Tailwind CSS inside a Next.js application (easy level)
+2. Prepare your code (easy level)
+3. Simple usage of Tailwind CSS (medium level)
+4. Apply plugins (simple level)
+5. Style the layout (hard level)
+6. Custom classes with the `@apply` directive (medium level)
 
 ## Prerequisites
 
-Continue with the existing code base from the completed previous lab. In case you didn't finish it, clone the [corrections repository](../../../../README.md#correction-repositories-and-supporting-source-code), checkout the corresponding `labX` tag and start from there. Later on, you must complete the missing lab by referring to the corrections.
+Make a copy of the previous labs in your repository under the `labs/module-4` folder and commit.
 
-## Part 1. Initialize Tailwind inside a Next.js application (easy level)
+## Part 1. Initialize Tailwind CSS inside a Next.js application (easy level)
 
 Follow the [official installation](https://tailwindcss.com/docs/guides/nextjs) guide to install Tailwind inside Next.js. Since you already have a Next.js application, start at step 2.
 
@@ -29,17 +31,17 @@ Remove the `/styles/*.module.css` files (note, you might want to keep them as a 
 
 Make sure the `/styles/globals.css` only contains the `@tailwind` directives and nothing else.
 
-## Part 3. Simple usage of Tailwind (medium level)
+## Part 3. Simple usage of Tailwind CSS (medium level)
 
-Use the [TailwindCSS documentation](https://tailwindcss.com). The `ctrl-k` shortcut popup a convenient search box.
+Use the [Tailwind CSS documentation](https://tailwindcss.com). The `ctrl-k` shortcut popup a convenient search box.
 
-Open `/pages/articles.js`. Replace the code `<p style={{fontStyle: 'italic'}}>` with the equivalent TailwindCSS class. It should look like `<p className='{here is the name of the tailwind equivalent class}'>`. The text shall display in italic just like it used to be.
+Open `/pages/articles.js`. Replace the code `<p style={{fontStyle: 'italic'}}>` with the equivalent Tailwind CSS class. It should look like `<p className='{here is the name of the tailwind equivalent class}'>`. The text shall display in italic just like it used to be.
 
 Now try to make both italic and bold.
 
-## Part 3. Apply plugins (simple level)
+## Part 4. Apply plugins (simple level)
 
-Install the following Tailwind plugins inside the `tailwind.config.js` configuration file:
+Install the following Tailwind CSS plugins inside the `tailwind.config.js` configuration file:
 
 - tailwindcss-font-inter
 - @tailwindcss/typography
@@ -49,13 +51,13 @@ Go back to your contact page, and the form input shall look a little better (a l
 
 Don't forget to add the package dependencies with `npm install` or `yarn add`
 
-## Part 4. Style the layout (hard level)
+## Part 5. Style the layout (hard level)
 
 Replace all CSS modules declaration present inside `styles/Layout.module.css` and `styles/Contacts.module.css` with Tailwind classes. Start with the Header and Footer components and use the old `*.module.css` as a source of inspiration.
 
 Don't hesitate to make it stylish.
 
-## Part 5. Custom classes with the `@apply` directive (medium level)
+## Part 6. Custom classes with the `@apply` directive (medium level)
 
 To style the titles, we will create a `wt-title`. Note, "wt" stands for Web Tech.
 
