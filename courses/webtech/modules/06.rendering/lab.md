@@ -19,6 +19,10 @@ In Next.js, using the appropriate data fetching strategy is key. Its impacts inc
 2. Build application (easy level)
 3. Create profile API and use it (hard level)
 
+## Prerequisites
+
+Continue with the existing code base from the completed previous lab. In case you didn't finish it, clone the [corrections repository](../../../../README.md#correction-repositories-and-supporting-source-code), checkout the corresponding `labX` tag and copy the necessary code base to your repository. Later on, you must complete the missing lab by referring to this corrections.
+
 ## Part 1. Use SSG (medium level)
 
 Revit the `/pages/articles.js` page. It is currently implemented with CSR. At the moment, the generated page doesn't contain the articles at build time, including the link to individual article pages. The search engine will not be able to index the article pages.

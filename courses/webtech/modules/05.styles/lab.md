@@ -17,7 +17,7 @@ Tailwind CSS is a utility-first CSS framework designed to enable users to create
 
 ## Prerequisites
 
-Make a copy of the previous labs in your repository under the `labs/module-4` folder and commit.
+Continue with the existing code base from the completed previous lab. In case you didn't finish it, clone the [corrections repository](../../../../README.md#correction-repositories-and-supporting-source-code), checkout the corresponding `labX` tag and copy the necessary code base to your repository. Later on, you must complete the missing lab by referring to this corrections.
 
 ## Part 1. Initialize Tailwind CSS inside a Next.js application (easy level)
 
