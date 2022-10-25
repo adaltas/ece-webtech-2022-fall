@@ -27,7 +27,7 @@ Continue with the existing code base from the completed previous lab. In case yo
 
 Revit the `/pages/articles.js` page. It is currently implemented with CSR. At the moment, the generated page doesn't contain the articles at build time, including the link to individual article pages. The search engine will not be able to index the article pages.
 
-Re-implement the page to use SSG by removing the `userEffect` function and exporting an implementation of the [`getStaticProps` function](https://nextjs.org/docs/basic-features/data-fetching/get-static-props).
+Re-implement the page to use SSG by removing the `useEffect` function and exporting an implementation of the [`getStaticProps` function](https://nextjs.org/docs/basic-features/data-fetching/get-static-props).
 
 ## Part 2. Build application (easy level)
 
