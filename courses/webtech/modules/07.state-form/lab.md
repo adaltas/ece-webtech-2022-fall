@@ -15,6 +15,10 @@ Web applications are no exception. The state is shared between the client and th
 3. Form with controlled elements (medium level)
 4. Application state with React Context (hard level)
 
+## Prerequisites
+
+Continue with the existing code base from the completed previous lab. In case you didn't finish it, clone the [corrections repository](../../../../README.md#correction-repositories-and-supporting-source-code), checkout the corresponding `labX` tag and copy the necessary code base to your repository. Later on, you must complete the missing lab by referring to this corrections.
+
 ## Part 1. Component state (easy level)
 
 Create a page at ["/use-state"](http://localhost:3000/use-state) route and a counter increment when the user clicks on a button.
