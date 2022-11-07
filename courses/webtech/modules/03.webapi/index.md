@@ -2,7 +2,7 @@
 duration: 1h
 ---
 
-# Web API with Node.js
+# Web API | with REST and Express.js
 
 The module will introduce Express framework to write a web application that exposes REST API services.
 

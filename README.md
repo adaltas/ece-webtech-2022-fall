@@ -7,11 +7,11 @@ This repository contains supporting materials and labs for the Web Technologies 
 
 1. Prerequisites and introduction to Web Technologies
 2. Getting started with Node.js
-3. Web API with Node.js and 
-4. Libraries and frameworks for the web
-5. Styling in React
-6. Rendering on the web
-7. State management
+3. Web API | with REST and Express.js
+4. Libraries and frameworks | with React and Next.js
+5. Styling in React | with Tailwind CSS
+6. Data Fetching and rendering | with Next.js
+7. State and form management
 8. Storage and databases
 9. Authentication process
 10. Deployment

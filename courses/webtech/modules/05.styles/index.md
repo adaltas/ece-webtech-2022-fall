@@ -2,7 +2,7 @@
 duration: 1h
 ---
 
-# Styling in React
+# Styling in React | with Tailwind CSS
 
 ## Problems with CSS
 

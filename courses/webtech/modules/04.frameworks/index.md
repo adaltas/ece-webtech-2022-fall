@@ -2,7 +2,7 @@
 duration: 1h
 ---
 
-# Libraries and frameworks for the web
+# Libraries and frameworks | with React and Next.js
 
 ## Library vs Framework
 
