@@ -11,8 +11,8 @@ This repository contains supporting materials and labs for the Web Technologies 
 4. Libraries and frameworks | with React and Next.js
 5. Styling in React | with Tailwind CSS
 6. Data Fetching and rendering | with Next.js
-7. State and form management
-8. Storage and databases
+7. State and form management | in React
+8. Storage and databases | with Supabase
 9. Authentication process
 10. Deployment
 
