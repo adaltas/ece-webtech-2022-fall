@@ -70,9 +70,7 @@ guide](https://supabase.com/docs/guides/with-nextjs).
 1. Go to the project website
 2. Install the Node.js dependencies for Supabase:
    ```bash
-   npm add \
-     @supabase/supabase-js \
-     @supabase/auth-helpers-react @supabase/auth-helpers-nextjs
+   npm add @supabase/supabase-js @supabase/auth-helpers-react @supabase/auth-helpers-nextjs
    ```
 3. Find the `API_EXTERNAL_URL` and `ANON_KEY` API Keys from `./supabase/.env`, and save them in environment variables in the `./app/.env` file (both `.env` and `env.local` are interpreted, I prefer `.env`) to expose them to the browser for you Next.js application (read more [here](https://nextjs.org/docs/basic-features/environment-variables#exposing-environment-variables-to-the-browser)):
    ```bash
