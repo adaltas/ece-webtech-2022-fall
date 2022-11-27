@@ -86,9 +86,9 @@ guide](https://supabase.com/docs/guides/with-nextjs).
 
 Implement a REST API query to fetch a record from the database.
 
-The page to display a `contacts` record is located in `./pages/contacts/[id].js`. See how we are using `getServerSideProps` to obtain the `id` parameter.
+The page to display a `contacts` record is located in `./pages/admin/contacts/[id].js`. See how we are using `getServerSideProps` to obtain the `id` parameter.
 
-All there is to do is to implement the `supabase.from('contacts')...` request to fetch a single record and call `setContact` with the returned data. It is similar to `./pages/contacts.js`. Instead of returning an array of `contacts` records, it returns the record matching the provided `id`.
+All there is to do is to implement the `supabase.from('contacts')...` request to fetch a single record and call `setContact` with the returned data. It is similar to `./pages/admin/contacts.js`. Instead of returning an array of `contacts` records, it returns the record matching the provided `id`.
 
 ## Part 5. Insert data into Supabase (medium level)
 
@@ -102,7 +102,7 @@ From the Supabase SQL editor, activate row-level security on the `contacts` tabl
 
 Create a policy that allows anonymous users to insert `contacts` records and which forbids anonymous users to read those inserted records.
 
-Check that anonymous can submit new contact information from `./pages/contacts.js`.
+Check that anonymous can submit new contact information from `./pages/contact.js`.
 
 Also, confirm that no record is displayed in `./pages/admin/contacts.js`. Disabling row-level security show display the records once again.
 
