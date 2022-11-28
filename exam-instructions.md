@@ -1,7 +1,7 @@
 
 # Exam instructions
 
-You will receive 20 of **multiple and single choice questions** (in French). To prepare, you must review all of the course modules and continue working on your project for practice.
+You will receive 20 of **multiple and single choice questions** (in English or French). To prepare, you must review all of the course modules and continue working on your project for practice.
 
 There will be two types of questions:
 
