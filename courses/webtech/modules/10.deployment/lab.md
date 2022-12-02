@@ -14,4 +14,13 @@ Test the connection from your application by configuring the new values of the e
 
 ## Part 2. Deploy your Next.js application to Vercel
 
-Signup on [Versel](https://vercel.com) with your GitHub account and create a new project by importing it from GitHub.
+Before publishing to Vercel, make sure your application can connect to online Supabase. Reconfigure the values of environment variables `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_ANON_KEY` in your `./app/.env` file with the ones you have received from configuring online Supabase.
+
+Then, make sure you can make a production build and start your application locally (not in development mode):
+
+```
+npm run build
+npm start
+```
+
+Finally, signup on [Versel](https://vercel.com) with your GitHub account and create a new project by importing it from GitHub.
