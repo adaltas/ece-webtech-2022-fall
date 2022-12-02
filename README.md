@@ -19,8 +19,8 @@ This repository contains supporting materials and labs for the Web Technologies 
 ## Assignment
 
 1. Participation and labs
-2. Project
-3. MCQ exam (multiple choice questions)
+2. [Project](project-instructions.md)
+3. [MCQ exam](exam-instructions.md) (multiple choice questions)
 
 ## Correction repositories and supporting source code
 
