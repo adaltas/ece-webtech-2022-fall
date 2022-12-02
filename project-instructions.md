@@ -3,7 +3,7 @@
 
 ## Deadline
 
-**December 20, 2022.** You must push your latest commit before the midnight of this date. 
+**December 22, 2022 (including).** You must push your latest commit before the midnight of this date. 
 
 ## Introduction
 
