@@ -28,12 +28,12 @@ Read the official [self-hosting with Docker](https://supabase.com/docs/guides/ho
 
 However, follow the instructions below. Not everything on the documentation page is necessary. For example, you do not need to generate new API keys and update secrets, the default ones work well for a local development environment.
 
-1. Docker, docker-compose, and Git must be installed on your system.
+1. Docker and Git must be installed on your system.
 2. Clone the Supabase repository. The `--depth 1` argument speed up the cloning process, all Git history is not necessary. Do it outside of your Next.js repository, you don't want a Git repository inside another Git repository.
 3. Now that the repo is cloned, copy all the files inside the "./docker" directory into your project "./supabase" directory.
 4. Copy the "./supabase/.env.example" file into "./supabase/.env"
 5. In "./supabase/.env", set the `STUDIO_PORT` to `3001` to avoid conflict with the Next.js default port.
-6. Now, go to your "./supabase" directory and run `docker-compose -f ./docker-compose.yml -f ./dev/docker-compose.dev.yml up`.
+6. Now, go to your "./supabase" directory and run `docker compose -f ./docker-compose.yml -f ./dev/docker-compose.dev.yml up`.
 
 Note, make sure to never commit your `.env` files. They contain sensible information.
 
