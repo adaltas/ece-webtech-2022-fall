@@ -3,6 +3,11 @@
 
 *presentation, introduction, ...*
 
+## Production 
+
+- Vercel URL: https://...
+- Supabase project URL: https://app.supabase.com/project/...
+
 ## Usage
 
 *how to start and use the application, run the tests, ...*
@@ -78,4 +83,5 @@
 
 ## Bonus
 
-*place your graduation and comments*
+* Task title   
+  *place your graduation and comments*
