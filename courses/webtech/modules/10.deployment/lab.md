@@ -23,4 +23,4 @@ npm run build
 npm start
 ```
 
-Finally, signup on [Versel](https://vercel.com) with your GitHub account and create a new project by importing it from GitHub.
+Finally, signup on [Vercel](https://vercel.com) with your GitHub account and create a new project by importing it from GitHub.
