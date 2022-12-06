@@ -1,0 +1,32 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.0.13",
+    "@supabase/auth-helpers-nextjs": "^0.5.2",
+    "@supabase/auth-helpers-react": "^0.3.1",
+    "@supabase/auth-ui-react": "^0.2.6",
+    "@supabase/supabase-js": "^2.1.1",
+    "@tailwindcss/forms": "^0.5.3",
+    "@tailwindcss/typography": "^0.5.8",
+    "markdown-it": "^13.0.1",
+    "next": "13.0.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tailwindcss-font-inter": "^3.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "eslint": "8.28.0",
+    "eslint-config-next": "13.0.5",
+    "postcss": "^8.4.19",
+    "tailwindcss": "^3.2.4"
+  }
+}
